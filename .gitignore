@@ -1,0 +1,4 @@
+*.box
+*.swp
+.DS_Store
+/.vagrant/*
