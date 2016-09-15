@@ -5,8 +5,8 @@ function install_pg
 {
     echo "Postgresql installation: True"
     echo "installing postgresql..."
-    sudo apt-get install postgresql-client-common && \
-        sudo apt-get install postgresql-client
+    sudo apt-get install -y postgresql-client-common && \
+        sudo apt-get install -y postgresql-client
 }
 
 # Install python dependencies
@@ -14,8 +14,8 @@ function install_python_dep
 {
     echo "Python installation: True"
     echo "installing Python..." 
-    sudo apt-get install python-dev && \
-        sudo apt-get install libffi-dev
+    sudo apt-get install -y python-dev && \
+        sudo apt-get install -y libffi-dev
 }
 
 
