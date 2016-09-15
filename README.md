@@ -16,5 +16,4 @@ configure the **packages.rb** if you choose to omit any packages.
 (_options are limited at the moment, more packages will be added later_)
 ```
 vagrant up
-
 ```
