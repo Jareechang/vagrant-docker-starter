@@ -22,10 +22,16 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     config.ssh.forward_agent = true
 
     # Open port on vagrant for development
+<<<<<<< HEAD
     config.vm.network :forwarded_port, guest: 80, host: 8888
 
     config.vm.network :forwarded_port, guest: 5555, host: 4444
     config.vm.network :forwarded_port, guest: 3333, host: 1234
+=======
+    config.vm.network :forwarded_port, guest: 80, host: 7777
+    config.vm.network :forwarded_port, guest: 5555, host: 5555
+    config.vm.network :forwarded_port, guest: 3333, host: 3333
+>>>>>>> 86001e4ba580f0b3c78b0f28255f67ccd9665fc8
 
     config.vm.provision "file", source: "~/dotfiles/.vim/", destination: ".vim"
     config.vm.provision "file", source: "~/dotfiles/.vimrc", destination: ".vimrc"
