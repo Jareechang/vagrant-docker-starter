@@ -44,4 +44,4 @@ if [ $3 == 'true' ]; then install_docker; fi
 if [ $4 == 'true' ]; then install_docker_compose; fi
 
 # Add current user to group
-sudo usermod -aG docker $(whoami)
+sudo usermod -aG docker vagrant
