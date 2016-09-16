@@ -19,7 +19,6 @@ function install_python_dep
         sudo apt-get install -y pyhton-pip
 }
 
-
 # Docker installation 
 function install_docker
 {
