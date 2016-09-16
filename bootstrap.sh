@@ -15,7 +15,8 @@ function install_python_dep
     echo "Python installation: True"
     echo "installing Python..." 
     sudo apt-get install -y python-dev && \
-        sudo apt-get install -y libffi-dev
+        sudo apt-get install -y libffi-dev && \
+        sudo apt-get install -y pyhton-pip
 }
 
 
