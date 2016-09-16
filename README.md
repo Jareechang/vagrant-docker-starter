@@ -15,5 +15,6 @@ vagrant environment.
 configure the **packages.rb** if you choose to omit any packages.
 (_options are limited at the moment, more packages will be added later_)
 ```
+git clone git@github.com:Jareechang/vagrant-docker-starter.git && cd vagrant-docker-starter
 vagrant up
 ```
